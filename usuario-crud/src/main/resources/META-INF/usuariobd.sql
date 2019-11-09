@@ -1,5 +1,5 @@
 CREATE TABLE USUARIO (
-  ID                 BIGINT       NOT NULL AUTO_INCREMENT,
+  ID                 BIGINT       NOT NULL,
   USERNAME           VARCHAR(64)  NOT NULL,
   SENHA              VARCHAR(64)  NOT NULL,
   NOME_COMPLETO      VARCHAR(100) NOT NULL,
